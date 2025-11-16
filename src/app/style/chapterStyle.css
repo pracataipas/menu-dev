@@ -1,0 +1,67 @@
+@import url("variables.css");
+
+/* CHAPTER DIVISION STYLING */
+
+.chapterClass {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: var(--default-width-percentage);
+    max-width: var(--default-width-value);
+}
+
+/* CHAPTER TITLE STYLING */
+
+.chapterTitleClass {
+    width: var(--default-width-percentage);
+    max-width: var(--default-width-value);
+    padding: 16px 0 16px;
+    background: var(--chapter-title-background-color);
+    border-radius: var(--chapter-title-border-radius);
+    box-shadow: 5px 5px 10px var(--chapter-title-shadow-color);
+    font-size: var(--chapter-title-font-size);
+    font-family: var(--chapter-title-font-family);
+    font-style: var(--chapter-title-font-style);
+    font-weight: var(--chapter-title-font-weight);
+    text-shadow: var(--chapter-title-font-shadow);
+    color: var(--chapter-title-font-color);
+}
+
+.chapterTitleClass:hover {
+    background: var(--chapter-title-background-color-hover);
+    box-shadow: 5px 5px 10px var(--chapter-title-shadow-color-hover);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CHAPTER CONTENT STYLING */
+
+.chapterTableClass {
+    width: var(--chapter-content-width);
+    max-width: var(--default-width-value);
+    padding: 0;
+    font-size: var(--chapter-content-font-size);
+    font-family: var(--chapter-item-font-family);
+    font-style: var(--chapter-item-font-style);
+    font-weight: var(--chapter-item-font-weight);
+    text-shadow: var(--chapter-item-font-shadow);
+    color: var(--chapter-item-font-color);
+}
+
+.chapterRowItemClass,
+.chapterRowPriceClass {
+    min-height: var(--default-height-value);
+    height: var(--default-height-value);
+    padding: var(--chapter-content-padding);
+}
+
+.chapterRowItemClass {
+    text-align: left;
+}
+
+.chapterRowPriceClass {
+    text-align: right;
+}

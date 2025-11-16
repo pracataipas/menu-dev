@@ -1,0 +1,44 @@
+.darkTheme {
+
+    /* COLOR */
+
+    --body-background-color: #192d26;
+    --chapter-title-background-color: #3E835C;
+    --chapter-title-background-color-hover: #3A6A59;
+    --chapter-title-shadow-color: #4A2609;
+    --chapter-title-shadow-color-hover: #A7A88A;
+    --footer-border-color: #787878;
+
+    /* FONT STYLING */
+
+    --chapter-title-font-family: "Fira Sans", serif;
+    --chapter-title-font-style: normal;
+    --chapter-title-font-weight: bold;
+    --chapter-title-font-shadow: -2px -2px #121212;
+    --chapter-title-font-color: #F1D4A7;
+    --chapter-item-font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    --chapter-item-font-style: normal;
+    --chapter-item-font-weight: normal;
+    --chapter-item-font-shadow: none;
+    --chapter-item-font-color: #DEDEDE;
+    --footer-font-color: #ABABAB;
+    --footer-link-hover-font-color: #F7E7CE;
+
+    /* FONT SIZING */
+
+    --chapter-title-font-size: 50px;
+    --chapter-content-font-size: 38px;
+    --footer-font-size: 20px;
+
+    /* AREA SIZING */
+
+    --chapter-title-border-radius: 0px;
+    --chapter-content-width: 90%;
+    --chapter-content-padding: 2px 0;
+
+    /* DEFAULT VARIABLES */
+    --default-height-value: 10px;
+    --default-width-value: 800px;
+    --logo-width-value: 500px;
+    --default-width-percentage: 100%;
+}
