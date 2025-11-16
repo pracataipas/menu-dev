@@ -1,2 +1,2 @@
 # menu-dev
-Menu website repository of Praça da Poncha bar
+Menu Dev Environment website repository of Praça da Poncha pub for tests
